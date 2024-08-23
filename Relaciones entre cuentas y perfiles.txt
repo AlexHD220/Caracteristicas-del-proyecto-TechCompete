@@ -1,0 +1,11 @@
+Las escuelas tienen muchos asesores registrados
+los asesores solo pueden estar asociado a una sola escuela por medio del nombre de usuario unico
+
+los asesores pueden registrar muchos equipos
+los equipos solo pueden tener un asesor
+
+los jueces pueden estar registrados en muchas competencias
+muchas competencias pueden tener muchos jueces
+
+las competencias tienen muchos equipos registrados
+los equipos solo pueden estar registrados a una sola competencia

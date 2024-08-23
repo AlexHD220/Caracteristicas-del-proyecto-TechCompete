@@ -1,0 +1,25 @@
+*Cuentas
+Super Administrador
+Administrador
+
+staff maestro
+staff
+
+jueces
+
+escuelas
+asesores
+
+
+
+*Perfiles
+competencias (robotica, computacion o de ciencia [proyecto])
+Categorias
+equipos
+
+
+
+PENDIENTES
+Arbitros [Pendientes de aprobar]
+nombre del proyecto, robot o equipo
+descripcion del proyecto

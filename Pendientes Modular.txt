@@ -1,0 +1,9 @@
+Corregir nombre de institucion al registrar 
+
+corregir read de github para agregar la creacion de la base de datos MySQL
+
+coregir error de imagenes que no se encuentran
+
+corregir error de que cuando haya 0 competencias en la fecha actual mostrar no hay competencias, y no solo que evalue el numero de competencias, porque si hay competencias registradas pero son viejas no mostrar el mensaje 
+
+agregar competencias anteriores

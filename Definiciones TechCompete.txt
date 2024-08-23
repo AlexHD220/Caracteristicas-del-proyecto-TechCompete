@@ -1,0 +1,29 @@
+Cuentas principales
+escuelas y equipos de robotica o clubes de ciencia (institucion)
+
+las escuelas registran a los asesores (es un tipo de cuenta)
+
+los asesores registran a los equipos (perfiles)
+
+
+
+Cuentas de servicio
+administradores (super administrador que es quien agrega a otros administradores y tiene acceso a las cuentas de las instituciones, asi como a los perfiles de los staff los cuales pueden ser de dos tipos, tambien existiran administradores con permisos bajos los cuales solo podran acceder a los perfiles de las competencias y configurar su informacion o agregar nuevas competencias, ademas estos podran registrar las cuentas de los staff tanto de los de menor rango como de los staff maestros)
+
+los administradores agregan a otros administradores 
+los administradores registran al staff y les dan permisos
+
+existiran 2 tipos de cuentas de staff
+el staff de la mesa de registro que administra los perfiles de los equipos asi como cambiar el status de pago de pendiente a activo
+y el staff maestro que sera quien administre los permisos de los jueces y les otorge el acceso a las competencias, asi como modificar los perfiles de los equipos sin resstricciones (super staff), ademas estos ultimos tambien podran otorgar o negar el accceso de los staff al status de pago de los equipos
+
+
+Tambien estan las cuntas de jueces 
+
+el staf le otorga los permisos a las cuentas de los jueces para acceder a las competencias 
+y estos una vez registrados a las competencias podran acceder a las caracteristicas de los equipos y tendran el permiso para evaluarlos durante los dias y horarios que hayan sido registrados para dicha competencia
+
+[PENDIENTE DE EVALUAR] para las competencias de robotica en donde no se evaluan los proyectos de los equipos, las cuentas de jueces no podran sr utilizadas, en su defecto se utilizaran perfiles de arbitros, en los cuales se les permitira registrar las caracteristicas de los robots de los equipos que se hayan presentado (altura, largo y ancho), esto con el fin de evaluar su desempeño y caracteristicas, ademas estos mismos seran los encargados de regitrar el puntaje de los equipos que se hayan presentado y desde esta misma cuenta se realizaran los match de los equipos de forma automatica 
+
+
+tenemos las competencias las cuales son perfiles en donde los asesores se registran a dichas competencias y registran a sus equipos dentro de estas 
