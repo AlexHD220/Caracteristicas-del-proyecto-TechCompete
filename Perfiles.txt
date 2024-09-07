@@ -1,8 +1,8 @@
 *Cuentas
-Super Administrador
+Super Administrador [Pedniente]
 Administrador
 
-staff maestro
+staff maestro [Pendiente]
 staff
 
 jueces

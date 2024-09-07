@@ -1,11 +1,81 @@
+*USERS
+tiene muchos administradores
+tiene muchos staff
+tiene muchas escuelas
+tiene muchos asesores
+tiene muchos jueces
+
+*ADMINISTRADORES
+tiene un solo usuario
+
+*STAFF
+tiene un solo usuario
+tienen muchas competencias 
+
+*COMPETENCIAS
+tiene muchos staff
+tiene muchas categorias
+tiene muchos equipos
+tiene muchos proyectos
+tiene muchos participantes
+tiene muchos jueces
+
+*CATEGORIAS
+tiene muchas competencias
+tiene muchos equipos
+tiene muchos proyectos
+
+*ESCUELAS
+tiene un solo usuario
+tiene muchos asesores
+tiene muchos equipos
+tiene muchos proyectos 
+
+*ASESORES
+tiene un solo usuario
+tiene una sola escuela
+tiene muchos equipos
+tiene muchos proyectos
+
+*EQUIPOS
+tiene una sola competencia
+tiene una sola categoria
+tiene una sola escuela
+tiene un solo asesor
+tiene muchos participantes
+
+*PROYECTOS
+tiene una sola competencia
+tiene una sola categoria
+tiene una sola escuela
+tiene un solo asesor
+tiene muchos participantes
+
+*PARTICIPANTES
+tiene una sola competencia
+tiene un solo equipo
+tiene un solo proyecto
+
+*JUECES
+tiene un solo usuario
+tiene muchas competencias
+
+------------------------------------------------------------------------------->
+
 Las escuelas tienen muchos asesores registrados
+Las escuelas tienen muchos equipos registrados
+
 los asesores solo pueden estar asociado a una sola escuela por medio del nombre de usuario unico
 
-los asesores pueden registrar muchos equipos
+
 los equipos solo pueden tener un asesor
+los equipos solo pueden tener 1 escuela
 
 los jueces pueden estar registrados en muchas competencias
 muchas competencias pueden tener muchos jueces
 
 las competencias tienen muchos equipos registrados
 los equipos solo pueden estar registrados a una sola competencia
+
+
+

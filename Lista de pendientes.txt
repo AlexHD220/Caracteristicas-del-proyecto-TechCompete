@@ -1,0 +1,7 @@
+Pendientes para Hoy (07/09/2024)
+*Corregir nombre de las tablas (protected) [v]
+*Diseñar columnas de las tablas
+*Agregar columnas a las tablas 
+*Crear dependencias
+- agregarlas a los modelos
+- agregarlas a las tablas

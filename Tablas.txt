@@ -1,0 +1,33 @@
+*USERS [v]
+
+*ADMINISTRADORES [v]
+*STAFF [v]
+
+*COMPETENCIAS [v]
+*CATEGORIAS [v]
+
+*ESCUELAS [v]
+*ASESORES [v]
+
+*EQUIPOS [v]
+*PROYECTOS [v]
+*PARTICIPANTES [v]
+
+*JUECES [v]
+
+-------------------------------------------------->
+
+*USERS
+*ADMINISTRADORES
+*STAFF
+*ESCUELAS
+*ASESORES
+*JUECES
+
+perfiles
+*COMPETENCIAS
+*CATEGORIAS
+*EQUIPOS
+*PROYECTOS
+*PARTICIPANTES
+

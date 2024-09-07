@@ -1,0 +1,10 @@
+Agregar descripcion de las caracteristicaas de la contraseña
+mayuscula, minusculas y numero
+
+
+modificar el subrayado de ya estas registrado
+
+
+Corregir el correo de confirmacion de cuenta
+
+Agregar selector de nuero minimo de participantes en el registro de la competencia o la categoria y guardarlo en la tabla pivote
