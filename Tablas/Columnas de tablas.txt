@@ -1,16 +1,173 @@
+
+|| - Cuentas - ||
+
 *USERS
-rol
+- Rol
+- UserName
+- Nombre
+- correo
+- Contraseña
 
+[ADMINISTRADORES]
+[- user_id]
+[- Nombre]
 
-*ADMINISTRADORES
-*STAFF
-*ESCUELAS
+[STAFF]
+[- user_id]
+[- Contacto (whatsapp)]
+
+*INSTITUCIONES
+- user_id
+- Nombre
+- Tipo
+- Sede
+- Ubicacion
+- contacto 1 (pagina web)
+- contacto 2 (correo)
+- contacto 3 (numero de telefono)
+- contacto 4 (whatsapp)
+
 *ASESORES
-*JUECES
+- user_id
+- independiente
+- intitucion_id
+- Nombre
+- Contacto (whatsapp)
+- Credencial
 
+*JUECES
+- user_id
+- Nombre
+- Contacto (whatsapp)
+
+
+
+|| - Perfiles - ||
 
 *COMPETENCIAS
-*CATEGORIAS
+- Nombre
+- Descripcion
+- Fecha
+- Duracion
+- Sede
+- Tipo
+
+*CATEGORIAS (globales)
+- Nombre
+- Descripcion 
+
 *EQUIPOS
+- Nombre
+- competencia_id
+- Inscripcion (competencia_categoria)
+- Pago
+- Autorizacion (quien autorizo el pago)
+- Carta_compromiso
+- asesor_id
+- independiente
+- institucion_id
+- Numero de equipo
+
 *PROYECTOS
+- Nombre proyecto
+- Inscripcion (competencia_categoria)
+- Pago
+- Autorizacion (quien autorizo el pago)
+- Carta_compromiso
+- asesor_id
+- independiente
+- institucion_id
+- Numero de proyecto
+- Descripcion (¿Qué es?)
+- Objetivo (¿Qué hace?)
+- Impacto (¿A quien beneficia?)
+- Num de evaluaciones
+- Num stand
+
 *PARTICIPANTES
+- Nombre
+- Roleable (equipo_id / proyecto_id)
+- credencial
+
+
+
+*ROBOTS
+- Nombre
+- equipo_id
+- peso
+- alto
+- largo
+- ancho
+
+
+*Horario
+- hora
+- competencia_categoria
+- duracion 
+- descripcion
+- lugar
+
+
+|| - Tablas pivote - ||
+
+[competencia_staff]
+[- categoria_nivel_id]
+[- staff_id]
+
+[competencia_juez] 
+[- categoria_nivel_id]
+[- juez_id] 
+
+*acceso_competencias
+- competencia_categoria_id
+- user_id (juez_id/staff_id)
+
+[horario_competencia]
+[- competencia_id]
+[- horario_id]
+
+|| - CRUD - ||
+
+*competencia_categoria
+- competencia_id
+- categoria_id
+- max_equipos
+- costo
+- min_participantes
+- max_participantes
+
+
+*ENFRENTAMIENTOS
+- competencia_categoria
+- ronda
+- id_robot1
+- id_robot2
+- puntaje 1
+- puntaje 2
+- ganador
+
+*CIRCUITOS (carreras)
+- competencia_categoria
+- id_robot
+- completado
+- tiempo
+- observaciones
+- juez_id
+
+*EVALUACIONES
+- competencia_categoria
+- juez_id
+- proyecto_id
+- Innovación
+- Creatividad
+- Aplicabilidad
+- Objetivos
+- Calidad
+- Investigación_Fundamentos
+- Exposición_Presentación
+- Impacto_Social_Ambiental
+- Viabilidad 
+- Prototipo
+- Comentarios
+- puntaje total
+

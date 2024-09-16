@@ -8,3 +8,15 @@ modificar el subrayado de ya estas registrado
 Corregir el correo de confirmacion de cuenta
 
 Agregar selector de nuero minimo de participantes en el registro de la competencia o la categoria y guardarlo en la tabla pivote
+
+
+*CORREGIR ESTA MIGRACION 
+php artisan make:migration --table asesores add_user_id_to_asesores_table [v]
+
+// Si quieres asegurarte de que no se repitan combinaciones de role_id y user_id
+    $table->unique(['role_id', 'user_id']);
+
+
+diseñar tablas
+
+protected fillable

@@ -1,12 +1,12 @@
 *USERS [v]
 
-*ADMINISTRADORES [v]
-*STAFF [v]
+[ADMINISTRADORES]
+[STAFF]
 
 *COMPETENCIAS [v]
 *CATEGORIAS [v]
 
-*ESCUELAS [v]
+*INSTITUCIONES (Escuela u Organizacion) [V]
 *ASESORES [v]
 
 *EQUIPOS [v]
@@ -14,6 +14,26 @@
 *PARTICIPANTES [v]
 
 *JUECES [v]
+
+*ROBOTS [V]
+
+*HORARIOS [V]
+
+
+|| - Tablas pivote - ||
+
+acceso_competencias [v] (migracion)
+
+
+|| - Tablas pivote con CRUD - ||
+
+- competencia_categoria [v]
+
+- CIRCUITOS [v]
+
+- ENFRENTAMIENTOS [V]
+
+- EVALUACIONES [V]
 
 -------------------------------------------------->
 
@@ -30,4 +50,8 @@ perfiles
 *EQUIPOS
 *PROYECTOS
 *PARTICIPANTES
+
+Tablas
+ENFRENTAMIENTOS
+EVALUACIONES
 

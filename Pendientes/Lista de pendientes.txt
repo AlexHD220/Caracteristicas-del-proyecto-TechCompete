@@ -1,7 +1,25 @@
-Pendientes para Hoy (07/09/2024)
-*Corregir nombre de las tablas (protected) [v]
-*Diseñar columnas de las tablas
+
+|| - LISTA DE PENDIENTES - ||
+
+*Corregir nombre de las tablas [v]
+
+*Diseñar columnas de las tablas [v]
 *Agregar columnas a las tablas 
-*Crear dependencias
-- agregarlas a los modelos
+*Crear dependencias []
+- agregarlas a los modelos [v]
 - agregarlas a las tablas
+*Agregar componentes protected (aquellos que pueden ser editados por los usuarios)
+
+
+
+Innovación
+Creatividad_Originalidad
+Aplicabilidad
+Objetivos
+Calidad
+Investigación_Fundamentos
+*Estetica
+Exposición_Presentación
+Impacto
+Potencial
+Prototipo
